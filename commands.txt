@@ -1,0 +1,7 @@
+py -3 -m venv venv1
+venv1\Scripts\activate.bat
+pip install fastapi
+pip freeze
+uvicorn main:app
+pip install psycopg2
+pip install sqlalchemy
